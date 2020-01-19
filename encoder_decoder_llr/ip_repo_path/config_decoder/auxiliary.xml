@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="config_decoder" xd:componentRef="config_decoder" xd:initiationInterval="2" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="din_words" xd:originalName="din_words" xd:direction="out" xd:interfaceRef="din_words_V_V" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="dout_words" xd:originalName="dout_words" xd:direction="out" xd:interfaceRef="dout_words_V_V" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="ctrl" xd:originalName="ctrl" xd:direction="out" xd:interfaceRef="ctrl_V_V" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="1" xd:average-case="1"/>
+  <xd:resourceEstimates xd:LUT="100" xd:FF="12" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>
